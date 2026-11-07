@@ -40,7 +40,7 @@ git clone https://github.com/alexmajano/lab-las.git
 **Paso 2.** Ingresar al proyecto.
 
 ```bash
-cd repositorio/proyecto
+cd lab-las
 ```
 
 **Paso 3.** Instalar las dependencias.
@@ -53,4 +53,18 @@ pip install -r requirements.txt
 
 ```bash
 python app.py
+python detector.py
 ```
+
+
+
+| Prueba | Usuario | MTTD | MTTR |
+| :--- | :--- | ---: | ---: |
+| 1 | carlos_123 | 39.0 s | 1421.0 s |
+| 2 | juan_123 | 43.0 s | 29.0 s |
+| 3 | luis_123 | 40.0 s | 18.0 s |
+| **Promedio** | — | **40.67 s** | **489.33 s** |
+
+
+
+
